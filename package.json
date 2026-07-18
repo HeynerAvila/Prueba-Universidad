@@ -1,0 +1,17 @@
+{
+  "name": "repo",
+  "version": "1.0.0",
+  "description": "Registro de productos con Netlify Database",
+  "scripts": {
+    "db:generate": "drizzle-kit generate"
+  },
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@netlify/database": "^1.1.0",
+    "drizzle-orm": "^1.0.0-beta.22"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^1.0.0-beta.22"
+  }
+}
