@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Registro de Productos</title>
+
+<link rel="stylesheet" href="estilos.css">
+
+</head>
+
+<body>
+
+<div class="contenedor">
+
+<h1>Registro de Productos</h1>
+
+<form action="guardar.php" method="POST">
+
+<label>Nombre del Producto</label>
+
+<input type="text" name="nombre" required>
+
+<label>Categoría</label>
+
+<select name="categoria">
+
+<option>Electrónica</option>
+
+<option>Ropa</option>
+
+<option>Alimentos</option>
+
+<option>Hogar</option>
+
+<option>Otros</option>
+
+</select>
+
+<label>Precio</label>
+
+<input type="number" step="0.01" name="precio" required>
+
+<label>Cantidad</label>
+
+<input type="number" name="cantidad" required>
+
+<input type="submit" value="Guardar Producto">
+
+</form>
+
+<br>
+
+<a href="consultar.php">
+
+<button>Ver Productos</button>
+
+</a>
+
+</div>
+
+</body>
+
+</html>
